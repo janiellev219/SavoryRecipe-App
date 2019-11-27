@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+        <ion-icon ios="ios-at" md="md-at"></ion-icon>
+      Recipes "Around the World"
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-content padding>
+
+ <div class="bar bar-header bar-stable">
+    <h2 class="title">Cuisines</h2>
+  </div>
+  <br>
+  <br>
+  <br>
+
+   
+  <ion-slides>
+    <ion-slide>
+     <ion-card>
+       
+      <img  [routerLink]="['/france']" src="./assets/images/1.jpg"/>
+      
+    </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+      <img [routerLink]="['/belgium']" src="./assets/images/2.jpg"/>
+      
+    </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+     <ion-card>
+      <img  [routerLink]="['/usa']" src="./assets/images/3.jpg"/>
+    </ion-card>
+    </ion-slide>
+  
+
+  <ion-slide>
+      <ion-card>
+       <img [routerLink]="['/italy']" src="./assets/images/4.jpg"/>
+     </ion-card>
+     </ion-slide>
+
+     <ion-slide>
+        <ion-card>
+         <img [routerLink]="['/switzerland']"  src="./assets/images/5.jpg"/>
+       </ion-card>
+       </ion-slide>
+
+       <ion-slide>
+          <ion-card>
+           <img [routerLink]="['/india']"  src="./assets/images/6.jpg"/>
+         </ion-card>
+         </ion-slide>
+
+   </ion-slides>
+<h3> Click on a picture to see a Recipe page</h3>
+  
+</ion-content>
+
